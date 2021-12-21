@@ -30,3 +30,6 @@ const fetchRashial = async () => {
   await browser.close();
   return data;
 };
+
+
+module.exports=fetchRashial;
